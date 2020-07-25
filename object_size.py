@@ -121,6 +121,7 @@ for c in cnts:
         if pixelsPerMetric is None:
             pixelsPerMetric = dB / args["width"]
 
+        print(f'ratio: {pixelsPerMetric}')
         # compute the size of the object
         dimA = dA / pixelsPerMetric
         dimB = dB / pixelsPerMetric
